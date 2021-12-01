@@ -12,9 +12,9 @@ const Tours = (props) => {
     <form className="">
         <section className='section'>
         <h3 className=''> Our Tours </h3>
-        <hr
-        className='underline'
-    />
+        <div className='underline'>
+        
+        </div>
         {items.map((item) => {
             const shortInfo = item.info.slice(0, 200)
             return (
@@ -24,7 +24,7 @@ const Tours = (props) => {
                 <li className="tour-price"> ${item.price}</li>
                 <li className="tour-info">
                     <p>{fullText ? item.info : shortInfo }</p>
-                    <p style={{cursor: 'pointer', color: '#72A0C1'}} onClick={() => setFullText(!fullText)}>{fullText ? `...show less` : `...show more`}</p>
+                    <p className = "button" onClick={() => setFullText(!fullText)}>{fullText ? `...show less` : `...show more`}</p>
                 </li>
                 <button className='delete-btn' onClick = {() => deleteTour(item.id)}>NOT INTERESTED</button>
             </ul>

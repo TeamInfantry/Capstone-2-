@@ -197,7 +197,7 @@ main {
 .tour-info h4 {
   margin-bottom: 0;
 }
-.single-tour button {
+.single-tour .button {
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
