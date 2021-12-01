@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Footer() {
+function EndPage() {
     const [value, setValue] = useState();
 
     const Refresh = () => {
@@ -16,4 +16,4 @@ function Footer() {
 
 }
 
-export default Footer;
+export default EndPage;

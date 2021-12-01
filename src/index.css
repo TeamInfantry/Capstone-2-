@@ -123,14 +123,14 @@ p {
 
 /* section */
 .section {
-  width: 90vw;
+  width: 50vw;
   margin: 0 auto;
   max-width: var(--max-width);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 672px) {
   .section {
-    width: 95vw;
+    width: 90vw;
   }
 }
 .btn {
@@ -177,6 +177,7 @@ main {
   margin: 2rem 0;
   box-shadow: var(--light-shadow);
   transition: var(--transition);
+  padding-bottom: 1.5rem;
 }
 .single-tour:hover {
   box-shadow: var(--dark-shadow);
@@ -193,11 +194,15 @@ main {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5rem;
+  padding: 0 1.5rem;
 }
 .tour-info h4 {
   margin-bottom: 0;
 }
-.single-tour button {
+.tour-info p {
+  text-align: left;
+}
+.single-tour .button {
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
@@ -225,4 +230,5 @@ main {
   border: 1px solid var(--clr-red-dark);
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
+  cursor: pointer;
 }
