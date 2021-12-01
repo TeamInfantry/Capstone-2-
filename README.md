@@ -3,6 +3,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+### You can clone it
+### `git clone https://github.com/TeamInfantry/Capstone-2-.git`
+
+in the project directory run:
+
+### `npm install`
 
 In the project directory, you can run:
 

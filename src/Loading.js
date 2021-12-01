@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import Tours from './components/Tour/tours';
 
+const url = 'https://course-api.com/react-tours-project';
+
 const Loading =  () => {
     const [items, setItems] = useState([]);
     const [done, setDone] = useState(undefined);
@@ -13,9 +15,7 @@ const Loading =  () => {
     }
     useEffect(() => {
         const getItems =async () => {
-            const result = await axios(
-                `https://course-api.com/react-tours-project`
-            )
+            const result = await axios( url )
             console.log(result.data)
             
             setItems(result.data)
