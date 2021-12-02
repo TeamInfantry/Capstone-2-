@@ -4,7 +4,7 @@ import React from "react";
 const Header= () => {
     return(
         <div className='header'>
-            <h2>Loading...</h2>
+            <h1>Loading...</h1>
         </div>
     )
 }
