@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function EndPage() {
-    const [value, setValue] = useState();
+    const [ setValue] = useState();
 
     const Refresh = () => {
         setValue({});
