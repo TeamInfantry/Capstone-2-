@@ -5,6 +5,9 @@ With the help of my awesome Team members by collaborating our knowledge and what
 on the internship program we developed this tour app that helps the user to have a basic knowladge of the place where he 
 or she is traveling to.It gives basic information about where they are going.
 
+
+[DEMO](https://team-infantry.netlify.app/)
+
  ###  Team Members.
  1. Moses Cheboi
  2. Kabiawu Abdulwaduud
