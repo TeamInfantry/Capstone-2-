@@ -21,7 +21,7 @@ const Tours = (props) => {
             items.length > 0 ?
             <section className='section'>
                 <h3 className=''> Our Tours </h3>
-                <hr className='underline' />
+                <div className='underline'></div>
                 {
                     items.map((item) => {
                         const shortInfo = item.info.slice(0, 200)
